@@ -1,0 +1,21 @@
+footer {
+  height: 300px;
+  background-color: #333; 
+  text-align: center;
+}
+
+.div-footer-social {
+  display:inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: rgb(101, 101, 102); 
+}
+
+.div-footer-social:hover {
+  background-color: brown;
+}
+
+.img-footer-social {
+  margin-top: calc(50% - 23px);
+  width: 45px;
+}
