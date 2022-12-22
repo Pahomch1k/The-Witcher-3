@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Witcher";
+  src: url("../Шрифт/Morpheus.ttf")
+}
+p { 
+  font-family: "Witcher"; 
+  font-size: 25px;
+} 
+h1 {
+  font-family: "Witcher"; 
+  font-size: 50px;
+  color: aliceblue;
+}  
+h3 {
+  font-family: "Witcher"; 
+  font-size: 30px; 
+} 
+
+h4 {
+  font-family: "Witcher"; 
+  font-size: 25px; 
+} 
+
+.p-h2 {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.p-about {
+  font-size: 15px;  
+  margin-left: 10%;
+  margin-right: 10%; 
+}
+
+.p-contact {
+  font-size: 15px;  
+  margin-left: 10%;
+  margin-right: 10%; 
+  color: aliceblue;
+}
+
+.p-znaki {
+  font-family: "Witcher"; 
+  font-size: 15px;
+}
+
+.h2-main {
+  text-align: center;
+  font-size: 50px; 
+  padding-top: 100px;
+  font-family: "Witcher"; 
+}
