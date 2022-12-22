@@ -1,0 +1,169 @@
+.div-contact {
+  height: 700px;
+  width: 100%; 
+  background-image:url("../Фото/Фоны/Фон\ Contacts.jpg");
+  background-repeat: no-repeat;   
+}
+
+.div-contact-item1 { 
+  height: 620px;
+  width: 49%;  
+  margin-top: 100px; 
+  margin-left: 15%;  
+  display: inline-block;  
+  position: relative; 
+}
+
+.div-contact-item1-gray {
+  background-color: rgb(38, 46, 70);
+  opacity: 95%;
+  width: 70%; 
+  height: 500px;  
+  text-align: center;  
+  position: absolute; 
+}
+
+.div-contact-item2 { 
+  height: 620px;
+  width: 30%;  
+  margin-left: -150px;
+  display: inline-block; 
+  text-align: left; 
+  position: relative;  
+}
+
+.div-contact-item2-gray {
+  background-color: rgb(38, 46, 70);
+  width: 80%; 
+  opacity: 95%;
+  height: 500px; 
+  position: absolute;  
+  text-align: center; 
+  margin-left: auto;
+  margin-right: auto;   
+}
+
+.div-map {
+  width: 90%;
+  height: 200px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 25px;
+}
+
+.input-contact {
+  background-color: rgb(38, 46, 70);
+  width: 89%;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: aliceblue;
+}
+
+.textarea-contact {
+  background-color: rgb(38, 46, 70);
+  width: 89%;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: aliceblue;
+}
+
+.button-contact {
+width: 50%;
+margin-left: -40%;
+margin-top: 25px;
+background-color: aquamarine; 
+font-size: 30px; 
+font-family: "Witcher";  
+text-decoration: none;
+color: #333;
+cursor: url('../Курсор/ПриНаведении.png')  2 2, crosshair;
+}
+
+
+@media (min-width: 1007px) and (max-width: 1183px) {
+  .div-contact-item1-gray { 
+    width: 500px; 
+  }
+  .div-contact {
+    height: 1150px;
+    text-align: center;
+  }
+  .div-contact-item2 {
+    display: block;
+    margin-left: 26%; 
+  }
+  .div-contact-item2-gray {
+    width: 500px;
+    top: -100px;  
+  }
+  .div-contact-item1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 792px) and (max-width: 1006px) {
+  .div-contact-item1-gray { 
+    width: 500px; 
+  }
+  .div-contact {
+    height: 1150px;
+    text-align: center;
+  }
+  .div-contact-item2 {
+    display: block; 
+    margin-left: 26%; 
+  }
+  .div-contact-item2-gray {
+    width: 500px;
+    top: -100px;  
+  }
+  .div-contact-item1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
+
+@media (min-width: 690px) and (max-width: 792px) {
+  .div-contact-item1-gray { 
+    width: 500px; 
+  }
+  .div-contact {
+    height: 1150px;
+    text-align: center;
+  }
+  .div-contact-item2 {
+    display: block; 
+    margin-left: 26%; 
+  }
+  .div-contact-item2-gray {
+    width: 500px;
+    top: -100px;  
+  }
+  .div-contact-item1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 690px) {
+  .div-contact-item1-gray { 
+    width: 120%; 
+  }
+  .div-contact {
+    height: 1150px;
+    text-align: center;
+  }
+  .div-contact-item2 {
+    display: block;
+    margin-left: 26%; 
+  }
+  .div-contact-item2-gray {
+    width: 195%;
+    top: -100px;   
+  }
+  .div-contact-item1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
