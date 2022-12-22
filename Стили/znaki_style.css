@@ -1,0 +1,56 @@
+.div-znaki-img {
+  margin-top: 100px;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+.znaki {
+  height: 1000px;  
+}
+@media (min-width: 1025px) and (max-width: 1532px) {
+  .znaki {
+    height: 1200px; 
+  }
+}
+@media (max-width: 1024px) {
+  .znaki {
+    height: 2000px; 
+  } 
+} 
+
+.img-znaki {
+  width: 250px;
+  height: 250px;
+  cursor: url('../Курсор/ПриНаведении.png')  2 2, crosshair;
+}
+
+.img-znaki-contacts {
+  width: 10px;
+  height: 10px;
+  cursor: url('../Курсор/ПриНаведении.png')  2 2, crosshair;
+}
+
+.div-img2 {
+  position:relative; 
+}
+
+.div-descrip1{ 
+  position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:brown;
+    padding-left:10px;
+    display:none;  
+    width: 200px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40%;
+    text-align:left;
+}
+.div-img2:hover .div-descrip1{
+  display:block;
+}  

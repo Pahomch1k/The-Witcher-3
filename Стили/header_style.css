@@ -1,0 +1,58 @@
+header {
+    height: 800px;
+    width: 100%; 
+    background-image:url("../Фото/Фоны/Фон\ Main.jpg");
+    background-repeat: no-repeat;   
+}
+
+#head {
+    height: 150px;
+    width: 100%;
+}
+
+#logo {
+    margin-top: 2%;
+    margin-left: 5%;
+    position: absolute;
+    cursor: url('../Курсор/ПриНаведении.png')  2 2, crosshair;
+    width: 100px;
+    height: 100px;
+}
+
+@media (min-width: 500px) and (max-width: 690px) {
+  #logo {
+    width: 60px;
+    height: 60px;
+  } 
+}
+
+#main {
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.button-contact-main {
+  border: 2px outset rgb(0, 0, 0);
+  background-color: #ECEFF1;
+  width: 250px;
+  height: 70px; 
+  cursor: url('../Курсор/ПриНаведении.png')  2 2, crosshair;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 1.5s; 
+
+}
+.button-contact-main:hover { 
+  transform: scale(1.3); 
+}
+
+.a-button-contact {   
+  font-size: 30px; 
+  font-family: "Witcher";  
+  text-decoration: none;
+  color: #333;
+  cursor: url('../Курсор/ПриНаведении.png')  2 2, crosshair;
+}
