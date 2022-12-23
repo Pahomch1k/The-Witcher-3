@@ -225,3 +225,7 @@ bottom: 5%;
 input[type="radio2"]{
   display: none;
 }
+
+.img-stars {
+  width: 25px;
+}
